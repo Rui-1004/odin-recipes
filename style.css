@@ -1,0 +1,61 @@
+body {
+    font-family: "Times New Roman", Garamond, sans-serif;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+h1, 
+h2 {
+    color: blueviolet;
+    background-color: rgb(199, 149, 41);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+.main-header {
+    color: #00008b;
+    background-color: hsl(73, 99%, 40%);
+    font-size: 50px;
+}
+
+.description,
+.ingredients-list,
+.steps-list {
+    font-size: 18px;
+}
+
+.description {
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+}
+
+#bifanas-link {
+    color: red;
+}
+
+#arroz-link {
+    color: green;
+}
+
+#broa-link {
+    color: blue;
+}
+
+li {
+    color: rgb(147, 52, 236);
+}
+
+.link-list li {
+    color: hotpink;
+    font-size: 25px;
+}
