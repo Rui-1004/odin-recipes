@@ -1,5 +1,6 @@
 body {
     font-family: "Times New Roman", Garamond, sans-serif;
+    background-color: blanchedalmond;
 }
 
 img {
@@ -23,10 +24,14 @@ h2 {
 }
 
 .main-header {
+    background-color: gold;
     color: #00008b;
-    background-color: hsl(73, 99%, 40%);
     font-size: 50px;
+    padding: 30px;
+    width: 600px;
+    margin: 0 auto;
 }
+
 
 .description,
 .ingredients-list,
@@ -55,7 +60,16 @@ li {
     color: rgb(147, 52, 236);
 }
 
+.link-list {
+    padding: 30px;
+    margin: 100px;
+    border: 2px solid gold;
+    background-color: rgb(255, 198, 75);
+}
+
 .link-list li {
-    color: hotpink;
+    color: rgb(255, 198, 75);
     font-size: 25px;
+    text-align: center;
+    margin-bottom: 8px;
 }
